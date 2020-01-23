@@ -11,3 +11,11 @@ func Encrypt(m string, n int) string {
 	}
 	return string(result)
 }
+
+func Decrypt(c string, n int) string {
+	result := make([]byte, len(c))
+	for i, b := range []byte(c) {
+		result[i] = b - byte(n)
+	}
+	return string(result)
+}
