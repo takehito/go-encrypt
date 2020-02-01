@@ -1,4 +1,4 @@
-package go_encrypt
+package caesar
 
 import (
 	"testing"

@@ -1,4 +1,4 @@
-package go_encrypt
+package caesar
 
 func KeyGen(n int) int {
 	return n
